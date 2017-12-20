@@ -12,7 +12,7 @@ new leatMine().start();
 
 Then you edit the bottom of `leat-mine.js` file.
 
-# Full instalation
+# Full installation
 
 1.) Install and run [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy)
 

@@ -14,7 +14,7 @@ Then you edit the bottom of `leat-mine.js` file.
 
 # Full instalation
 
-1.) Install and run `leat-stratum-proxy`
+1.) Install and run [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy)
 
 2.) copy `https://leat.io/lib/leat-mine.js` (this repo) and `https://leat.io/lib/leathash.wasm` and `https://leat.io/lib/leathash-amjs.min.js` files into your local webserver.
 

@@ -54,3 +54,7 @@ Then you edit the bottom of `leat-mine.js` file.
 ```
 
 Also make sure to edit the same things in the big fat long last line.
+
+-------------------------------------------------------------------------
+- with <3 from https://leat.io
+

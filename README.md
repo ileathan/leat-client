@@ -6,7 +6,7 @@ Javascript client side miner wrapper.
 # Usage 
 
 ```html
-<script src="yourdomain.com/leat-mine.js"></script>
+<script src="/leat-mine.js"></script>
 <script>
 new leatMine().start();
 </script>

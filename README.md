@@ -14,7 +14,7 @@ Then you edit the bottom of `leat-mine.js` file.
 
 # Full installation
 
-1.) Install and run [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy)
+1.) Install and run [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy) (The top of this file contains the default address miners use, and an option to force them to use it.)
 
 2.) Host `https://leat.io/lib/leat-mine.js` (this repo) and `https://leat.io/lib/leathash.wasm` and `https://leat.io/lib/leathash-amjs.min.js` locally on your webserver.
 

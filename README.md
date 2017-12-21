@@ -1,5 +1,5 @@
 # leat-client
-Javascript client side miner wrapper.
+Client side Javascript Monero miner.
 
 `leat-mine.js` Is the main file that should be served via
 
@@ -39,7 +39,7 @@ Then you edit the bottom of `leat-mine.js` file.
 
 1.) Install and run [leat-stratum-proxy](https://github.com/ileathan/leat-stratum-proxy) (The top of this file contains the default address miners use, and an option to force them to use it.) **This step + serving the client with `leat-mine.js` is all thats needed**
 
-2.) For best preformance host `https://leat.io/lib/leat-mine.js` (this repo) `https://leat.io/lib/leathash.wasm`, `https://leat.io/lib/leathash-amjs.min.js` and `https://leat.io/lib/leathash-amjs.min.js.mem` locally on your webserver.
+2.) For best preformance host all the files in this repo locally. `leat-mine.js`, `leathash.wasm`, `leathash-amjs.min.js` and `leathash-amjs.min.js.mem` locally on your webserver.
 
 3.) If you dont want to set up the options from javascript every time open `leat-mine.js` and scroll to the bottom. edit the following lines according to where you hosted the files.
 

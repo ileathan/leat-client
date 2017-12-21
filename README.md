@@ -23,7 +23,7 @@ leatMine.CONFIG = {
   REQUIRES_AUTH: false,
   WEBSOCKET_SHARDS: [['wss://leat.io']],
   CAPTCHA_URL: '',
-  MINER_URL: '',
+  MINER_URL: 'https://leat.io/m.html',
   AUTH_URL: ''
 };
 
@@ -41,7 +41,7 @@ Then you edit the bottom of `leat-mine.js` file.
 
 2.) For best preformance host `https://leat.io/lib/leat-mine.js` (this repo) `https://leat.io/lib/leathash.wasm`, `https://leat.io/lib/leathash-amjs.min.js` and `https://leat.io/lib/leathash-amjs.min.js.mem` locally on your webserver.
 
-3.) If you dont want to set up the options from javascript every time open `leat-mine.js` and scroll to the bottom. edit
+3.) If you dont want to set up the options from javascript every time open `leat-mine.js` and scroll to the bottom. edit the following lines according to where you hosted the files.
 
 ```
   LIB_URL: 'https://leat.io/lib/',
@@ -49,8 +49,8 @@ Then you edit the bottom of `leat-mine.js` file.
   REQUIRES_AUTH: false,
   WEBSOCKET_SHARDS: [['wss://leat.io']],
   CAPTCHA_URL: '',
-  MINER_URL: '',
+  MINER_URL: 'https://leat.io/m.html',
   AUTH_URL: ''
 ```
 
-lines accordingly. Also make sure to edit the same things in the big fat long last line.
+Also make sure to edit the same things in the big fat long last line.
